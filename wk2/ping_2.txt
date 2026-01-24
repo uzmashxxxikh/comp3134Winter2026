@@ -1,0 +1,16 @@
+Command:
+ping 137.184.164.212    # or 'ping -c 5 137.184.164.212' on macOS/Linux
+
+Output:
+Pinging 137.184.164.212 with 32 bytes of data:
+Reply from 137.184.164.212: bytes=32 time=51ms TTL=50
+Reply from 137.184.164.212: bytes=32 time=46ms TTL=50
+Reply from 137.184.164.212: bytes=32 time=41ms TTL=50
+Reply from 137.184.164.212: bytes=32 time=37ms TTL=50
+
+Ping statistics for 137.184.164.212:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 37ms, Maximum = 51ms, Average = 43ms
+PS C:\Users\uzmas>
+

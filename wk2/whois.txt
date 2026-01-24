@@ -1,0 +1,104 @@
+===== google.com =====
+Domain: google.com
+Registered On: 1997-09-15
+Expires On: 2028-09-14
+Updated On: 2019-09-09
+Status: client delete prohibited, client transfer prohibited, client update prohibited, server delete prohibited, server transfer prohibited, server update prohibited
+Name Servers: ns1.google.com, ns2.google.com, ns3.google.com, ns4.google.com
+Registrar: MarkMonitor Inc.
+IANA ID: 292
+Email: https://www.markmonitor.com/contact-us/
+Abuse Email: abusecomplaints@markmonitor.com
+Abuse Phone: +1.2086851750
+Registrant Organization: Google LLC
+Registrant Country: US
+
+
+===== yahoo.com =====
+Domain: yahoo.com
+Registered On: 1995-01-18
+Expires On: 2027-01-19
+Updated On: 2025-12-18
+Status: client delete prohibited, client transfer prohibited, client update prohibited, server delete prohibited, server transfer prohibited, server update prohibited
+Name Servers: ns1.yahoo.com, ns2.yahoo.com, ns3.yahoo.com, ns4.yahoo.com, ns5.yahoo.com
+Registrar: MarkMonitor Inc.
+IANA ID: 292
+Email: https://www.markmonitor.com/contact-us/
+Abuse Email: abusecomplaints@markmonitor.com
+Abuse Phone: +1.2086851750
+Registrant Organization: Yahoo Assets LLC
+Registrant Country: US
+
+
+===== microsoft.com =====
+Domain: microsoft.com
+Registered On: 1991-05-02
+Expires On: 2026-05-03
+Updated On: 2025-04-01
+Status: client delete prohibited, client transfer prohibited, client update prohibited, server delete prohibited, server transfer prohibited, server update prohibited
+Name Servers: ns1-39.azure-dns.com, ns2-39.azure-dns.net, ns3-39.azure-dns.org, ns4-39.azure-dns.info
+Registrar: MarkMonitor Inc.
+IANA ID: 292
+Email: https://www.markmonitor.com/contact-us/
+Abuse Email: abusecomplaints@markmonitor.com
+Abuse Phone: +1.2086851750
+Registrant Name: Domain Administrator
+Registrant Organization: Microsoft Corporation
+Registrant Street: One Microsoft Way
+Registrant City: Redmond
+Registrant State: WA
+Registrant Postal Code: 98052
+Registrant Country: US
+Registrant Phone: +1.4258828080
+Registrant Fax: +1.4259367329
+Technical Contact Name: MSN Hostmaster
+Technical Contact Phone: +1.4258828080
+
+
+===== amazon.ca =====
+Domain: amazon.ca
+Registered On: 2000-09-19
+Expires On: 2026-07-16
+Updated On: 2025-07-16
+Status: client delete prohibited, client transfer prohibited, client update prohibited, server delete prohibited, server transfer prohibited, server update prohibited
+Name Servers: ns1.amzndns.co.uk, ns1.amzndns.com, ns1.amzndns.net, ns1.amzndns.org, ns2.amzndns.co.uk, ns2.amzndns.com, ns2.amzndns.net, ns2.amzndns.org
+Registrar: MarkMonitor International Canada Ltd.
+Abuse Email: abusecomplaints@markmonitor.com
+Abuse Phone: +1.2083895740
+Registrant Name: Amazon Technologies, Inc. TMA499121
+Registrant Street: PO Box 8102
+Registrant City: Reno
+Registrant State: NV
+Registrant Postal Code: 91423
+Registrant Country: US
+Registrant Phone: +1.2062664064
+Registrant Fax: +1.2062667010
+Registrant Email: email@amazon.com
+
+
+===== cpp.edu =====
+Domain Name: CPP.EDU
+Registrant: California State Polytechnic University, Pomona
+Registrant Street: 3801 West Temple Avenue
+Registrant City: Pomona
+Registrant State: CA
+Registrant Country: USA
+Administrative Contact: Domain Admin
+Administrative Contact Organization: California State Polytechnic University, Pomona
+Administrative Contact Street: 3801 West Temple Avenue
+Administrative Contact City: Pomona
+Administrative Contact State: CA
+Administrative Contact Country: USA
+Administrative Contact Phone: +1.9099796469
+Administrative Contact Email: email@cpp.edu
+Technical Contact Organization: California State Polytechnic University, Pomona
+Technical Contact Street: 3801 West Temple Avenue
+Technical Contact City: Pomona
+Technical Contact State: CA
+Technical Contact Country: USA
+Technical Contact Phone: +1.9099796469
+Technical Contact Email: email@cpp.edu
+Name Servers: NS-323.AWSDNS-40.COM, NS-1016.AWSDNS-63.NET, NS-1075.AWSDNS-06.ORG, NS-1861.AWSDNS-40.CO.UK
+Domain record activated: 23-Jul-2014
+Domain record last updated: 05-Nov-2024
+Domain expires: 31-Jul-2027

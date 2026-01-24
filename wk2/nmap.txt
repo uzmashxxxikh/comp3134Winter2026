@@ -1,0 +1,63 @@
+Command 1:
+nmap google.com
+
+Output:
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 22:50 UTC
+Nmap scan report for google.com (142.250.69.78)
+Host is up (0.0100s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:4023:1807::64 2607:f8b0:4023:1807::71 2607:f8b0:4023:1807::8a 2607:f8b0:4023:1807::65
+rDNS record for 142.250.69.78: tzyula-aa-in-f14.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.03 seconds
+
+
+Command 2:
+nmap -p 80 google.com
+
+Output:
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-24 00:15 UTC
+Nmap scan report for google.com (192.178.192.139)
+Host is up (0.0030s latency).
+Other addresses for google.com (not scanned): 192.178.192.102 192.178.192.100 192.178.192.113 192.178.192.138 192.178.192.101 2607:f8b0:4023:1804::71 2607:f8b0:4023:1804::66 2607:f8b0:4023:1804::65 2607:f8b0:4023:1804::64
+rDNS record for 192.178.192.139: lcyyzn-in-f139.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
+
+Command 3:
+nmap -p 1-100 google.com
+
+Output:
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-24 00:16 UTC
+Nmap scan report for google.com (142.250.139.100)
+Host is up (0.0030s latency).
+Other addresses for google.com (not scanned): 142.250.139.138 142.250.139.113 142.250.139.139 142.250.139.102 142.250.139.101 2607:f8b0:4023:1804::66 2607:f8b0:4023:1804::64 2607:f8b0:4023:1804::65 2607:f8b0:4023:1804::71
+rDNS record for 142.250.139.100: lcyyzb-in-f100.1e100.net
+Not shown: 99 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.81 seconds
+
+Command 4:
+nmap -F google.com
+
+Output:
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-24 00:17 UTC
+Nmap scan report for google.com (142.250.139.102)
+Host is up (0.0031s latency).
+Other addresses for google.com (not scanned): 142.250.139.100 142.250.139.139 142.250.139.101 142.250.139.138 142.250.139.113 2607:f8b0:4023:1804::71 2607:f8b0:4023:1804::65 2607:f8b0:4023:1804::64 2607:f8b0:4023:1804::66
+rDNS record for 142.250.139.102: lcyyzb-in-f102.1e100.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.80 seconds

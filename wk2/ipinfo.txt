@@ -1,0 +1,23 @@
+Domain: facebook.com
+IP: 57.144.222.1
+Location: Amsterdam, Noord-Holland, Netherlands
+
+
+Domain: twitter.com
+IP: 162.159.140.229
+Location: San Francisco, California, United States
+
+
+Domain: github.com
+IP: 140.82.121.4
+Location: San Francisco, California, United States
+
+
+Domain: reddit.com
+IP: 151.101.129.140
+Location: San Francisco, California, United States
+
+
+Domain: digitalocean.com
+IP: 104.19.174.68
+Location: San Francisco, California, United States
