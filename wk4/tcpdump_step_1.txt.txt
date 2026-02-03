@@ -1,0 +1,5 @@
+05:43:57.165217 IP6 fe80::215:5dff:fe9a:9658 > ip6-allrouters: ICMP6, router solicitation, length 16
+05:52:25.069811 IP6 fe80::215:5dff:fe9a:9658 > ip6-allrouters: ICMP6, router solicitation, length 16
+05:54:06.837209 IP Uzma.mshome.net.5353 > mdns.mcast.net.5353: 0 PTR (QM)? _sleep-proxy._udp.local. (41)
+06:09:04.493143 IP6 fe80::215:5dff:fe9a:9658 > ip6-allrouters: ICMP6, router solicitation, length 16
+06:30:38.216205 IP Uzma.mshome.net.5353 > mdns.mcast.net.5353: 0 PTR (QM)? _sleep-proxy._udp.local. (41)
