@@ -1,0 +1,3 @@
+service ssh reload
+
+ssh -p 2222 root@137.184.164.212
