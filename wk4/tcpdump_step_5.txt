@@ -1,0 +1,77 @@
+$ sudo tcpdump -XX -i eth0
+04:53:32.438531 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-234-215-82.cpe.net.cable.rogers.com.57299: Flags [P.], seq 141078912:141079020, ack 1131980382, win 782, length 108
+        0x0000:  fe00 0000 0101 b212 550c 3d13 0800 4510  ........U.=...E.
+        0x0010:  0094 f69e 4000 4006 d9eb 89b8 a4d4 63ea  ....@.@.......c.
+        0x0020:  d752 0016 dfd3 0868 b180 4378 a65e 5018  .R.....h..Cx.^P.
+        0x0030:  030e 6a50 0000 e082 dff3 4771 514d 1c27  ..jP......GqQM.'
+        0x0040:  fb9c d24d 62f9 e33c 60cb 6de8 02c0 7095  ...Mb..<`.m...p.
+        0x0050:  2679 755b 059c a2d3 d89c 3ec4 c7c3 1437  &yu[......>....7
+        0x0060:  51b6 3b72 5918 6c76 9e36 fab1 7405 31f2  Q.;rY.lv.6..t.1.
+        0x0070:  7183 a194 4634 5b11 6ab9 28d0 f18c 5faa  q...F4[.j.(..._.
+        0x0080:  4acd 7725 adf4 8f0e fe69 367e f903 ef8d  J.w%.....i6~....
+        0x0090:  9fc1 6f9e a8d3 cd8b 3b39 a6a2 50e0 ebc5  ..o.....;9..P...
+        0x00a0:  0ae4                                     ..
+04:53:32.438803 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-234-215-82.cpe.net.cable.rogers.com.57299: Flags [P.], seq 108:224, ack 1, win 782, length 116
+        0x0000:  fe00 0000 0101 b212 550c 3d13 0800 4510  ........U.=...E.
+        0x0010:  009c f69f 4000 4006 d9e2 89b8 a4d4 63ea  ....@.@.......c.
+        0x0020:  d752 0016 dfd3 0868 b1ec 4378 a65e 5018  .R.....h..Cx.^P.
+        0x0030:  030e 6a58 0000 0958 1399 8837 6c97 dc64  ..jX...X...7l..d
+        0x0040:  7094 941e f08e 5b19 d860 2cbe ad3a 45a4  p.....[..`,..:E.
+        0x0050:  1d94 9591 297e 4dbc 2542 343c 26e9 f7f9  ....)~M.%B4<&...
+        0x0060:  ae51 c3ec efeb f58c cd96 0690 2726 cf5b  .Q..........'&.[
+        0x0070:  1b19 f043 72c0 cd0c 6493 3b58 4423 733a  ...Cr...d.;XD#s:
+        0x0080:  ace2 c61a 07c7 4f25 dc8d d8aa fe8d 18f2  ......O%........
+        0x0090:  d981 6488 2414 7466 ffbf 0f18 1352 ba96  ..d.$.tf.....R..
+        0x00a0:  ce55 bf46 2d1f 59b6 5f0f                 .U.F-.Y._.
+04:53:32.448764 IP pool-99-234-215-82.cpe.net.cable.rogers.com.57299 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4294967252, win 250, length 0
+        0x0000:  b212 550c 3d13 fe00 0000 0101 0800 4500  ..U.=.........E.
+        0x0010:  0028 6fc3 4000 7806 2943 63ea d752 89b8  .(o.@.x.)Cc..R..
+        0x0020:  a4d4 dfd3 0016 4378 a682 0868 b154 5010  ......Cx...h.TP.
+        0x0030:  00fa c16f 0000 0000 0000 0000            ...o........
+04:53:32.448764 IP pool-99-234-215-82.cpe.net.cable.rogers.com.57299 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 4294967076, win 251, length 36
+        0x0000:  b212 550c 3d13 fe00 0000 0101 0800 4500  ..U.=.........E.
+        0x0010:  004c 6fc2 4000 7806 2920 63ea d752 89b8  .Lo.@.x.).c..R..
+        0x0020:  a4d4 dfd3 0016 4378 a65e 0868 b0a4 5018  ......Cx.^.h..P.
+        0x0030:  00fb 413d 0000 6ae4 f7ae 4205 9f3c c718  ..A=..j...B..<..
+        0x0040:  cb08 6b56 78a5 b3a8 5ca4 1002 617e f0d8  ..kVx...\...a~..
+        0x0050:  3986 7fb3 3271 9aff cd95                 9...2q....
+04:53:32.448932 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-234-215-82.cpe.net.cable.rogers.com.57299: Flags [P.], seq 224:260, ack 37, win 782, length 36
+        0x0000:  fe00 0000 0101 b212 550c 3d13 0800 4510  ........U.=...E.
+        0x0010:  004c f6a0 4000 4006 da31 89b8 a4d4 63ea  .L..@.@..1....c.
+        0x0020:  d752 0016 dfd3 0868 b260 4378 a682 5018  .R.....h.`Cx..P.
+        0x0030:  030e 6a08 0000 2fbc 2a07 d9b2 dcbb b3d2  ..j.../.*.......
+        0x0040:  3872 5535 4d96 131d 24dd 60b1 e058 ee4d  8rU5M...$.`..X.M
+        0x0050:  2467 edd7 5486 f9c5 0787                 $g..T.....
+04:53:32.474645 IP pool-99-234-215-82.cpe.net.cable.rogers.com.57299 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 108, win 255, length 0
+        0x0000:  b212 550c 3d13 fe00 0000 0101 0800 4500  ..U.=.........E.
+        0x0010:  0028 6fc4 4000 7806 2942 63ea d752 89b8  .(o.@.x.)Bc..R..
+        0x0020:  a4d4 dfd3 0016 4378 a682 0868 b1ec 5010  ......Cx...h..P.
+        0x0030:  00ff c0d2 0000 0000 0000 0000            ............
+04:53:32.481062 IP pool-99-234-215-82.cpe.net.cable.rogers.com.57299 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 224, win 255, length 36
+        0x0000:  b212 550c 3d13 fe00 0000 0101 0800 4500  ..U.=.........E.
+        0x0010:  004c 6fc5 4000 7806 291d 63ea d752 89b8  .Lo.@.x.).c..R..
+        0x0020:  a4d4 dfd3 0016 4378 a682 0868 b260 5018  ......Cx...h.`P.
+        0x0030:  00ff b9a6 0000 6c2a ea85 bc50 cfc5 711a  ......l*...P..q.
+        0x0040:  ca6a b49a 8137 ef29 c9a7 24f9 f0ed 7fbd  .j...7.)..$.....
+        0x0050:  f57d fe4f 20d2 9e31 b125                 .}.O...1.%
+04:53:32.481252 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-234-215-82.cpe.net.cable.rogers.com.57299: Flags [P.], seq 260:296, ack 73, win 782, length 36
+        0x0000:  fe00 0000 0101 b212 550c 3d13 0800 4510  ........U.=...E.
+        0x0010:  004c f6a1 4000 4006 da30 89b8 a4d4 63ea  .L..@.@..0....c.
+        0x0020:  d752 0016 dfd3 0868 b284 4378 a6a6 5018  .R.....h..Cx..P.
+        0x0030:  030e 6a08 0000 7f7c 35f1 1f4c 21ae 5ee6  ..j....|5..L!.^.
+        0x0040:  f015 d797 8066 c711 674d 44a2 d38b eb6c  .....f..gMD....l
+        0x0050:  cfc2 2fea e260 4bc3 ffad                 ../..`K...
+04:53:32.511440 IP pool-99-234-215-82.cpe.net.cable.rogers.com.57299 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 73:109, ack 260, win 255, length 36
+        0x0000:  b212 550c 3d13 fe00 0000 0101 0800 4500  ..U.=.........E.
+        0x0010:  004c 6fc6 4000 7806 291c 63ea d752 89b8  .Lo.@.x.).c..R..
+        0x0020:  a4d4 dfd3 0016 4378 a6a6 0868 b284 5018  ......Cx...h..P.
+        0x0030:  00ff 7ad4 0000 5a22 f83e 7e16 4ec8 a610  ..z...Z".>~.N...
+        0x0040:  ffff 3e4e 5109 9cc1 e903 5636 efa7 b02f  ..>NQ.....V6.../
+        0x0050:  57df 5156 e284 7abb 6e24                 W.QV..z.n$
+04:53:32.511669 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-234-215-82.cpe.net.cable.rogers.com.57299: Flags [P.], seq 296:332, ack 109, win 782, length 36
+        0x0000:  fe00 0000 0101 b212 550c 3d13 0800 4510  ........U.=...E.
+        0x0010:  004c f6a2 4000 4006 da2f 89b8 a4d4 63ea  .L..@.@../....c.
+        0x0020:  d752 0016 dfd3 0868 b2a8 4378 a6ca 5018  .R.....h..Cx..P.
+        0x0030:  030e 6a08 0000 886c 2fb7 eea0 e6a4 32d7  ..j....l/.....2.
+        0x0040:  6ac2 ad1a 46ba bc85 e67e bab2 2669 c8d1  j...F....~..&i..
+        0x0050:  e6a7 08d5 3b99 b1f2 d0b3                 ....;.....

@@ -1,0 +1,6 @@
+$ sudo tcpdump -c 5 -i eth0
+04:52:12.917244 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-234-215-82.cpe.net.cable.rogers.com.57299: Flags [P.], seq 141055652:141055760, ack 1131959114, win 670, length 108
+04:52:12.917313 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-234-215-82.cpe.net.cable.rogers.com.57299: Flags [P.], seq 108:144, ack 1, win 670, length 36
+04:52:12.917380 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-234-215-82.cpe.net.cable.rogers.com.57299: Flags [P.], seq 144:196, ack 1, win 670, length 52
+04:52:12.917518 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > pool-99-234-215-82.cpe.net.cable.rogers.com.57299: Flags [P.], seq 196:296, ack 1, win 670, length 100
+04:52:12.927512 IP pool-99-234-215-82.cpe.net.cable.rogers.com.57299 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 4294967244, win 255, length 36
