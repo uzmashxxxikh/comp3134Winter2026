@@ -1,0 +1,1 @@
+sudo tcpdump -i any > all_traffic_20260310_0002.txt
