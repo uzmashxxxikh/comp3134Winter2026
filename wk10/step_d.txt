@@ -1,0 +1,9 @@
+What I see on the browser (the issue):
+The page throws a PHP error because "hello" is not a valid directory. 
+The script attempts to scan it anyway with no validation, displaying 
+the error directly in the browser.
+
+What sensitive information is given by this page:
+- The full server file path is exposed in the error message
+- PHP version and server details are revealed
+- Attackers can use this information to find vulnerabilities

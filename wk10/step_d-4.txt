@@ -1,0 +1,9 @@
+What I see on the browser (the issue):
+The page lists all files and folders two levels above the web root. 
+By passing "../../" in the query string, the script traverses outside 
+the intended directory with no validation, allowing a directory traversal attack.
+
+What sensitive information is given by this page:
+- Server directory structure above /var/www/html is exposed
+- System folders and files not meant to be public are visible
+- An attacker can identify sensitive targets like config files or logs

@@ -1,0 +1,14 @@
+Issue 1: Users can navigate outside the web root using ../ sequences
+Mitigation: Used basename() on the input parameter. basename() strips 
+any directory path components and returns only the final folder name, 
+preventing users from traversing up the directory tree.
+
+Issue 2: The script scans directories that do not exist, revealing error info
+Mitigation: Used file_exists() and is_dir() to check if the path exists 
+before calling scandir(). If it does not exist, a safe error message is 
+displayed instead of a PHP warning that exposes server information.
+
+Issue 3: Users can pass filenames with dots instead of directories
+Mitigation: Used strpos() to check if the input contains a dot. If found, 
+the request is rejected with a safe error message, preventing users from 
+attempting to read individual files on the server.

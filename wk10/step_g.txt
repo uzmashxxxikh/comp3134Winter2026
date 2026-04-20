@@ -1,0 +1,6 @@
+The Problem:
+HTML comments (<!-- -->) can be seen by anyone using "View Page Source".
+The Mitigation:
+We converted HTML comments (<!-- -->) to PHP comments (//).
+PHP comments are executed on the server and are not visible in the browser's page source.
+This prevents sensitive information from being leaked through client-side inspection.

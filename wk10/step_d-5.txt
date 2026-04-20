@@ -1,0 +1,10 @@
+What I see on the browser (the issue):
+The page displays the same result as "../../" because "%2e%2e%2f" is 
+the URL-encoded version of "../". The script cannot detect or block 
+encoded traversal attempts, making it still vulnerable.
+
+What sensitive information is given by this page:
+- Same sensitive server directory structure is exposed as step_d-4
+- Proves that filtering for "../" alone is not enough
+- Attackers can use URL encoding to bypass basic filters and 
+  still access folders outside the web root
