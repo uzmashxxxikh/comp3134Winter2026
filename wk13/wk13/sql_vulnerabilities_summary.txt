@@ -1,0 +1,19 @@
+SQL Vulnerabilities Summary:
+
+Scenario 1 - Search for "John":
+Searching for "John" returned John Smith's row as expected.
+The query worked normally and only showed active users.
+This is the expected behavior with no injection attempted.
+
+Scenario 2 - Search for "Ben'-- ":
+Searching for "Ben'-- " returned Ben's row even though his
+active column is 0. The single quote closed the SQL string
+early and the -- commented out the "AND active = 1" condition.
+This bypassed the active filter, exposing inactive users.
+This is a SQL injection attack.
+
+Scenario 3 - Search for "Ben' or 1=1-- ":
+Searching for "Ben' or 1=1-- " returned ALL rows in the table
+regardless of active status. The injected "or 1=1" is always
+true so every row matched. This exposed all user data in the
+database which is a very dangerous SQL injection attack.
