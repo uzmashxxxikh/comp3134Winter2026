@@ -1,0 +1,19 @@
+Scenario 1 - Valid English Word via Form:
+Entering a valid word like "hello" into the search form displays its
+definition and updates the URL to /browse/hello. The site handles
+valid input correctly.
+
+Scenario 2 - Invalid English Word via URL:
+Typing an invalid word like "xyzabc123" after /browse/ in the URL
+returns a "no results found" page. The site handles bad input
+gracefully without exposing any errors.
+
+Scenario 3 - XSS Script via Form:
+Entering <script>alert(%27hello%27)</script> into the search form
+does not execute the script. No alert popup appears, confirming
+the site filters form input against XSS attacks.
+
+Scenario 4 - XSS Script via URL:
+Typing <script>alert(%27hello%27)</script> directly into the URL
+also does not execute the script. This confirms the site has
+server-side XSS protection on URL inputs as well.
