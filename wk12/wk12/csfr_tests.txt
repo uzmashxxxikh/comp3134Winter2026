@@ -1,0 +1,16 @@
+CSRF Mitigation Test Results:
+
+Test 1 - Using csfr_form.php (protected form):
+Submitting the form with username "host" and password "pass" was
+successful. The session token matched the hidden confirmation field,
+confirming the request was legitimate.
+
+Test 2 - Using csfr.html (forged attack page):
+The forged page automatically submitted credentials but was blocked.
+The fake token did not match the real session token, triggering
+the "CSRF Attack Detected!" message.
+
+Conclusion:
+Session tokens are an effective CSRF mitigation. Forged pages
+cannot replicate valid session tokens, so they get blocked
+while legitimate forms work normally.

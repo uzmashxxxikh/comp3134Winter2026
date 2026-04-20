@@ -1,0 +1,15 @@
+Stored XSS Issues Observed:
+
+1. The script stored in storedxss.txt is executed directly by the browser
+   when storexss.php reads and outputs the file contents without sanitizing.
+
+2. This is dangerous because an attacker could store malicious JavaScript
+   in a file or database, and every user who visits the page would have
+   the script executed in their browser automatically.
+
+3. In this case the script redirects the user to another page entirely,
+   but in a real attack it could steal cookies, credentials, or personal data.
+
+4. The root cause is that file_get_contents() output is never sanitized
+   before being echoed to the browser. Using htmlspecialchars() would
+   prevent the script from executing.
